@@ -3,8 +3,8 @@
 %bcond_without	tests		# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	XML
-%define	pnam	Filter-Glossary
+%define		pdir	XML
+%define		pnam	Filter-Glossary
 Summary:	XML::Filter::Glossary - SAX2 filter for keyword lookup and replacement
 Summary(pl):	XML::Filter::Glossary - filtr SAX2 do poszukiwania i zastêpowania s³ów kluczowych
 Name:		perl-XML-Filter-Glossary
