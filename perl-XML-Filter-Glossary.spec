@@ -29,8 +29,10 @@ This package is modelled after the UserLand glossary system where
 words, or phrases, wrapped in double-quotes are compared against a
 lookup table and are replaced by their corresponding entries.
 
-# %description -l pl
-# TODO
+%description -l pl
+Ten pakiet jest modelowany w oparciu o system s³ownikowy UserLand, w
+którym s³owa lub frazy umieszczone w cudzys³owach s± porównywane z
+tablic± wyszukiwania i zastêpowane odpowiadaj±cymi im wpisami.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
@@ -53,5 +55,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%{perl_vendorlib}/%{pdir}/*/*
+%{perl_vendorlib}/XML/*/*
 %{_mandir}/man3/*
