@@ -6,7 +6,7 @@
 %define	pdir	XML
 %define	pnam	Filter-Glossary
 Summary:	XML::Filter::Glossary - SAX2 filter for keyword lookup and replacement
-#Summary(pl):	
+Summary(pl):	XML::Filter::Glossary - filtr SAX2 do poszukiwania i zastêpowania s³ów kluczowych
 Name:		perl-XML-Filter-Glossary
 Version:	0.2
 Release:	1
@@ -25,9 +25,9 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This package is modelled after the UserLand glossary system where words,
-or phrases, wrapped in double-quotes are compared against a lookup table
-and are replaced by their corresponding entries.
+This package is modelled after the UserLand glossary system where
+words, or phrases, wrapped in double-quotes are compared against a
+lookup table and are replaced by their corresponding entries.
 
 # %description -l pl
 # TODO
