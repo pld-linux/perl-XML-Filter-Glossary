@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	XML
 %define		pnam	Filter-Glossary
+%include	/usr/lib/rpm/macros.perl
 Summary:	XML::Filter::Glossary - SAX2 filter for keyword lookup and replacement
 Summary(pl.UTF-8):	XML::Filter::Glossary - filtr SAX2 do poszukiwania i zastępowania słów kluczowych
 Name:		perl-XML-Filter-Glossary
@@ -14,6 +14,7 @@ License:	BSD-like
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	04427a14f8e10e24e9f725439925048d
+URL:		http://search.cpan.org/dist/XML-Filter-Glossary/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
