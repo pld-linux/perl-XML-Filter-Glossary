@@ -8,7 +8,7 @@ Summary:	XML::Filter::Glossary - SAX2 filter for keyword lookup and replacement
 Summary(pl.UTF-8):	XML::Filter::Glossary - filtr SAX2 do poszukiwania i zastępowania słów kluczowych
 Name:		perl-XML-Filter-Glossary
 Version:	0.2
-Release:	1
+Release:	2
 License:	BSD-like
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
